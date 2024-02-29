@@ -16,8 +16,8 @@ public class VerifyDesktopPageTitle {
 		  
 		   driver.get("https://www.facebook.com/");
 		   
-		   LoginOrSignUpPage loginOrSignUpPage = new LoginOrSignUpPage(driver);
-		   loginOrSignUpPage.openMessenger();
+		 //  LoginOrSignUpPage loginOrSignUpPage = new LoginOrSignUpPage(driver);
+		 //  loginOrSignUpPage.openMessenger();
 		   
 		   Desktop_Pages desktop_Pages = new Desktop_Pages(driver);
 		   desktop_Pages.openDesktoplink();
