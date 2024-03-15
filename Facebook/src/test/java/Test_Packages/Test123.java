@@ -21,10 +21,10 @@ public class Test123 {
 	}
 	
 	@Test
-	public void test()
-	{
-	System.out.println("test");		
-	}
+ 	public void test()
+    {
+    System.out.println("test");		
+    }
 	
 	@AfterMethod
 	public void aftermethod()

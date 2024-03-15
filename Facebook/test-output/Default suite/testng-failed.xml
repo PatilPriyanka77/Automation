@@ -5,12 +5,14 @@
     <classes>
       <class name="Test_Packages.TestNg">
         <methods>
-          <include name="afterclass"/>
           <include name="aftermethod"/>
           <include name="verifyFeatureLinkt"/>
+          <include name="afterclass"/>
           <include name="goToMessangerPage"/>
+          <include name="createPOMobject"/>
           <include name="verifytheTitleofCurrentPage"/>
           <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
         </methods>
       </class> <!-- Test_Packages.TestNg -->
     </classes>
