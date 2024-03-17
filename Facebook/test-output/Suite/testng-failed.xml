@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="Test_Packages.TestNg">
+        <methods>
+          <include name="afterclass"/>
+          <include name="verifyFeatureLinkt"/>
+          <include name="aftermethod"/>
+          <include name="goToMessangerPage"/>
+          <include name="createPOMobject"/>
+          <include name="verifytheTitleofCurrentPage"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Test_Packages.TestNg -->
+      <class name="Test_Packages.New_TestNG">
+        <methods>
+          <include name="afterclass"/>
+          <include name="aftermethod"/>
+          <include name="verifytheDesktopPage"/>
+          <include name="goToMessangerPage"/>
+          <include name="createPOMobject"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Test_Packages.New_TestNG -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
